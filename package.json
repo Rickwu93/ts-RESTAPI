@@ -1,0 +1,25 @@
+{
+  "name": "ts-restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rickwu93/ts-RESTAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rickwu93/ts-RESTAPI/issues"
+  },
+  "homepage": "https://github.com/Rickwu93/ts-RESTAPI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
