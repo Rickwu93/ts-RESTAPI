@@ -1,7 +1,7 @@
 import express from 'express';
 
-import { createUser, getUserByEmail } from 'db/users';
-import { random, authentication } from 'helpers';
+import { createUser, getUserByEmail } from '../db/users';
+import { random, authentication } from '../helpers';
 
 //creating login route
 export const login = async (req: express.Request, res: express.Response) => {
