@@ -3,7 +3,7 @@ import { get, merge } from 'lodash';
 
 import { getUserBySessionToken } from '../db/users';
 //to confirm only owner can delete cookies
-const isOwner = async (req: express.Request, res: express.Response, next: express.NextFunction) => {
+export const isOwner = async (req: express.Request, res: express.Response, next: express.NextFunction) => {
     try {
         const { id } = req.params;
         const currentUserId = get(req, 'identity._id') as string; //string cause we merged it below
